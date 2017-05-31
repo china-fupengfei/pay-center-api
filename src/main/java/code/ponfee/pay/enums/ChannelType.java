@@ -31,7 +31,6 @@ public enum ChannelType {
     QPAY_APP("QPAY", "QQ钱包", "APP", "code.ponfee.pay.qpay.QpayService"), // QQ钱包APP
     QPAY_JSAPI("QPAY", "QQ钱包", "JSAPI", "code.ponfee.pay.qpay.QpayService"), // QQ钱包JSAPI
 
-    /** 1208钱包 */
     PURSE_PAY("PURSEPAY", "12308钱包", "ALL", "code.ponfee.pay.pursepay.PursepayService"), // 钱包支付
 
     //@Deprecated QPAY_APP("QPAY", "APP", "code.ponfee.pay.qpay.QpayService"), // 手机QQ APP
