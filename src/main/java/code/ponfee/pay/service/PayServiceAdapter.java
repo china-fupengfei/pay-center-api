@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import code.ponfee.commons.exception.UnimplementedException;
-import code.ponfee.commons.model.Pager;
+import code.ponfee.commons.model.Pagination;
 import code.ponfee.commons.model.Result;
 import code.ponfee.pay.dto.PayApplyResult;
 import code.ponfee.pay.dto.PayNotifyResult;
@@ -92,7 +92,7 @@ public abstract class PayServiceAdapter implements IPayService {
     }
 
     @Override
-    public Result<Pager<Refund>> queryRefundsForPage(Map<String, ?> params) {
+    public Result<Pagination<Refund>> queryRefundsForPage(Map<String, ?> params) {
         throw new UnimplementedException();
     }
 

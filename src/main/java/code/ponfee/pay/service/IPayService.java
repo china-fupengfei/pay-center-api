@@ -3,7 +3,7 @@ package code.ponfee.pay.service;
 import java.util.List;
 import java.util.Map;
 
-import code.ponfee.commons.model.Pager;
+import code.ponfee.commons.model.Pagination;
 import code.ponfee.commons.model.Result;
 import code.ponfee.pay.dto.PayApplyResult;
 import code.ponfee.pay.dto.PayNotifyResult;
@@ -148,5 +148,5 @@ public interface IPayService {
      * @param params
      * @return
      */
-    Result<Pager<Refund>> queryRefundsForPage(Map<String, ?> params);
+    Result<Pagination<Refund>> queryRefundsForPage(Map<String, ?> params);
 }
